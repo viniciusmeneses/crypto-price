@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
 import './index.css';
 
-ReactDOM.render(<h1>crypto-status</h1>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

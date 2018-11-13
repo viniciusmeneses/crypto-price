@@ -1,0 +1,23 @@
+.price-chart h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #3b3b3b;
+  font-weight: 400;
+}
+
+.price-chart header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 15px 15px 13px;
+}
+
+.price-chart .chart {
+  width: 100%;
+  height: 400px;
+  padding: 10px 0px 0px 10px;
+}
+
+.price-chart header select {
+  font-weight: 400;
+}

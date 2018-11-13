@@ -1,0 +1,25 @@
+.coin-item {
+  text-align: center;
+  padding: 15px 10px;
+  border-left: 1px solid rgb(231, 231, 231);
+  transition: all 0.2s;
+  color: #3b3b3b;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.coin-item:first-child  {
+  border-radius: 10px 0 0 10px;
+}
+.coin-item:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.coin-item:hover {
+  background: #ffffff;
+}
+
+.coin-item img {
+  margin-right: 7px;
+}

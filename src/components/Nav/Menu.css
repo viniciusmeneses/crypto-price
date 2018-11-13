@@ -1,0 +1,17 @@
+.menu {
+  width: 100%;
+}
+
+.menu .container-fluid {
+  padding: 0;
+}
+
+.menu .coin-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.144);
+  background-color: #fafafa;
+  font-weight: 500;
+}

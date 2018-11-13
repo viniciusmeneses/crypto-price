@@ -1,0 +1,10 @@
+.app {
+  margin: 0 auto;
+  max-width: 700px;
+  min-height: 100vh;
+}
+
+.app header h1 {
+  color: #ffffff;
+  text-shadow: 0 0 10px #00000071;
+}

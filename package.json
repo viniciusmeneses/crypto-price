@@ -1,7 +1,9 @@
 {
   "name": "crypto-status",
   "version": "0.1.0",
-  "private": true,
+  "repository": "https://github.com/viniciusmeneses/crypto-status.git",
+  "author": "vini23hot <vini23hot@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",

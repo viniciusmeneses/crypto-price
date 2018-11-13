@@ -139,7 +139,7 @@ export default class PriceChart extends Component {
         xAxes: [
           {
             ticks: {
-              fontColor: '#515151',
+              fontColor: '#5e5e5e',
               fontFamily: 'Montserrat',
               fontStyle: 500,
               padding: 10,
@@ -152,7 +152,7 @@ export default class PriceChart extends Component {
         yAxes: [
           {
             ticks: {
-              fontColor: '#515151',
+              fontColor: '#5e5e5e',
               fontFamily: 'Montserrat',
               padding: 10,
               fontStyle: 500,
@@ -173,7 +173,7 @@ export default class PriceChart extends Component {
 
     return (
       <section className="price-chart">
-        <header>
+        <header className="pb-3 pl-3 pr-sm-2 pr-md-3 pr-1">
           <h2>
             {` ${coin.name} `}
             Price

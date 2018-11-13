@@ -2,7 +2,6 @@
   text-align: center;
   border-left: 1px solid rgb(231, 231, 231);
   transition: all 0.2s;
-  color: #3b3b3b;
 }
 
 .coin-item.col-6.col-sm-3 {
@@ -30,4 +29,29 @@
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+@media (max-width: 575px) {
+  .coin-item:first-child, .coin-item:nth-child(3) {
+    border-left: 0;
+  }
+  .coin-item:nth-child(3), .coin-item:last-child {
+    border-top: 1px solid rgb(231, 231, 231);
+  }
+
+  .coin-item:first-child {
+    border-radius: 10px 0 0 0;
+  }
+
+  .coin-item:nth-child(2) {
+    border-radius: 0 10px 0 0;
+  }
+
+  .coin-item:nth-child(3) {
+    border-radius: 0 0 0 10px;
+  }
+
+  .coin-item:last-child {
+    border-radius: 0 0 10px 0;
+  }
 }

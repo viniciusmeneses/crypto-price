@@ -28,7 +28,7 @@ export default class App extends Component {
     return (
       <div className="app container d-flex flex-column justify-content-center align-items-center p-3">
         <header>
-          <h1 className="mb-4">
+          <h1 className="mb-4 text-center">
             crypto-status
           </h1>
         </header>

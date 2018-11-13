@@ -1,12 +1,12 @@
 .coin-item {
   text-align: center;
-  padding: 15px 10px;
   border-left: 1px solid rgb(231, 231, 231);
   transition: all 0.2s;
   color: #3b3b3b;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+}
+
+.coin-item.col-6.col-sm-3 {
+  padding: 0;
 }
 
 .coin-item:first-child  {
@@ -16,10 +16,18 @@
   border-radius: 0 10px 10px 0;
 }
 
-.coin-item:hover {
+.coin-item:hover, .coin-item.active {
   background: #ffffff;
 }
 
 .coin-item img {
   margin-right: 7px;
+}
+
+.coin-item div {
+  width: 100%;
+  padding: 15px 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }

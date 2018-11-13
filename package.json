@@ -1,7 +1,7 @@
 {
-  "name": "crypto-status",
+  "name": "crypto-price",
   "version": "0.1.0",
-  "repository": "https://github.com/viniciusmeneses/crypto-status.git",
+  "repository": "https://github.com/viniciusmeneses/crypto-price.git",
   "author": "vini23hot <vini23hot@gmail.com>",
   "license": "MIT",
   "dependencies": {

@@ -188,7 +188,7 @@ export default class PriceChart extends Component {
             </select>
           </form>
         </header>
-        <article className="chart">{chart}</article>
+        <article className="chart pl-3">{chart}</article>
       </section>
     );
   }

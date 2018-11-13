@@ -8,3 +8,16 @@
   color: #ffffff;
   text-shadow: 0 0 10px #00000071;
 }
+
+.app footer {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.app footer a {
+  transition: all 0.3s ease;
+}
+
+.app footer a:hover {
+  text-decoration: none;
+}

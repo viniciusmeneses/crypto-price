@@ -2,7 +2,7 @@
 
 > A React app which shows the price of cryptocurrencies.
 
-**food-search** is a *open-source* project which uses [CryptoCompare API](https://min-api.cryptocompare.com/) to browse and retrieve the cryptocurrency price *(Bitcoin, Litecoin, Dogecoin or Ethereum)* of the last days.
+**crypto-price** is a *open-source* project which uses [CryptoCompare API](https://min-api.cryptocompare.com/) to browse and retrieve the cryptocurrency price *(Bitcoin, Litecoin, Dogecoin or Ethereum)* of the last days.
 
 <p align="center">
   <img src="./preview.png">
@@ -25,7 +25,7 @@ npm install
 Run one of the following commands to start use **crypto-price**:
 
 ```
-// Start development webserver
+// Starts development webserver
 npm start
 
 // Builds the application to production

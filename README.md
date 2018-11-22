@@ -4,6 +4,8 @@
 
 **crypto-price** is a *open-source* project which uses [CryptoCompare API](https://min-api.cryptocompare.com/) to browse and retrieve the cryptocurrency price *(Bitcoin, Litecoin, Dogecoin or Ethereum)* of the last days.
 
+[**Demo available here!**](http://crypto-price.surge.sh)
+
 <p align="center">
   <img src="./preview.png">
 </p>
